@@ -1,4 +1,4 @@
-.projetos {
+#projects {
   max-width: 1250px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -11,7 +11,7 @@
   border-radius: 10px;
 }
 
-.projetos h1 {
+#projects h1 {
   font-size: 6.25rem;
   line-height: 6rem;
   color: rgba(21, 21, 21, 0.72);
@@ -19,12 +19,12 @@
   grid-column: 1 /-1;
 }
 
-.projetos h2 {
+#projects h2 {
   text-emphasis: bold;
   color: #323232;
 }
 
-.projetos p {
+#projects p {
   grid-column: 1 /-1;
   font-size: 1.75rem;
   text-align: center;
@@ -57,21 +57,21 @@
 }
 
 @media (max-width: 1280px) {
-  .projetos {
+  #projects {
     gap: 10px;
     border-radius: 0;
     margin: 50px 0px;
   }
-  .projetos h1 {
+  #projects h1 {
     font-size: 4rem;
     line-height: 4rem;
     text-align: center;
   }
-  .projetos p {
+  #projects p {
     font-size: 1.2rem;
     margin: 0px auto 20px auto;
   }
-  .projetos h2 {
+  #projects h2 {
     font-size: 1.25rem;
     line-height: 1.25rem;
     max-width: 100%;
@@ -91,21 +91,21 @@
 }
 
 @media (max-width: 800px) {
-  .projetos {
+  #projects {
     gap: 10px;
     padding: 30px;
     margin: 60px auto 10px auto;
     border-radius: 0px;
   }
-  .projetos h1 {
+  #projects h1 {
     font-size: 2.5rem;
     line-height: 2.5rem;
     text-align: center;
   }
-  .projetos p {
+  #projects p {
     font-size: 1rem;
   }
-  .projetos h2 {
+  #projects h2 {
     font-size: 0.8rem;
     line-height: 0.8rem;
     text-align: center;
@@ -125,13 +125,13 @@
 }
 
 @media (max-width: 480px) {
-  .projetos {
+  #projects {
     gap: 5px;
     padding: 10px;
     justify-content: center;
     margin: 10px auto 0px auto;
   }
-  .projetos h1 {
+  #projects h1 {
     font-size: 1.75rem;
     line-height: 1.75rem;
     text-align: center;
@@ -139,11 +139,11 @@
   .itens-projeto {
     width: 100%;
   }
-  .projetos p {
+  #projects p {
     font-size: 0.55rem;
     line-height: 0.55rem;
   }
-  .projetos h2 {
+  #projects h2 {
     font-size: 0.6rem;
     line-height: 0.6rem;
     text-align: center;

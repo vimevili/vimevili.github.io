@@ -31,13 +31,13 @@
   max-width: 65ch;
 }
 
-.itens-projeto {
+#projetos .itens-projeto {
   display: flex;
   gap: 50px;
   grid-column: 1/-1;
 }
 
-.tags {
+#projetos .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -46,7 +46,7 @@
   grid-row: 5;
 }
 
-.tags li {
+#projetos .tags li {
   background-image: linear-gradient(#f9d7c8, #febfa4);
   padding: 10px 20px;
   border-radius: 10px;
