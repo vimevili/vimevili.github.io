@@ -285,48 +285,48 @@
   .cursos {
     gap: 20px;
   }
-  .t1 {
+  #formacao .t1 {
     max-width: 220px;
     font-size: 1.35rem;
   }
 
-  .t2 {
+  #formacao .t2 {
     max-width: 190px;
     font-size: 1.35rem;
   }
 
-  .t2 h3,
+  #formacao .t2 h3,
   p {
     font-size: 1.25rem;
   }
-  .cursos {
+  #formacao .cursos {
     max-width: 552px;
   }
-  .cursos-1 h3 {
+  #formacao .cursos-1 h3 {
     font-size: 1.2rem;
     margin: 0px;
   }
-  .cursos-1 .p1,
-  .cursos-2 .p1 {
+  #formacao .cursos-1 .p1,
+  #formacao .cursos-2 .p1 {
     margin-bottom: 0px;
     font-size: 1.1rem;
   }
-  .cursos-1 .p2,
-  .cursos-2 .p2 {
+  #formacao .cursos-1 .p2,
+  #formacao .cursos-2 .p2 {
     font-size: 1.2rem;
   }
-  .cursos-2 h3,
-  .p1 {
+  #formacao .cursos-2 h3,
+  #formacao .p1 {
     font-size: 1.2rem;
   }
-  .idiomas {
+  #formacao .idiomas {
     max-width: 220px;
     padding: 10px 20px;
   }
-  .idiomas p {
+  #formacao .idiomas p {
     margin-bottom: 0px;
   }
-  .idiomas h3 {
+  #formacao .idiomas h3 {
     font-size: 1.3rem;
   }
 }
@@ -356,43 +356,38 @@
     width: 448px;
     gap: 20px;
   }
-  .t1,
-  .t2 {
+  #formacao .t1,
+  #formacao .t2 {
     font-size: 1.25rem;
   }
-  .t2 h3,
-  p {
+  #formacao .t2 h3,
+  #formacao p {
     font-size: 1rem;
   }
-  .cursos-1 h3,
-  .cursos-1 .p1,
-  .cursos-2 .p1,
-  .cursos-1 .p2,
-  .cursos-2 h3,
-  .cursos-2 .p2 {
+  #formacao .cursos-1 h3,
+  #formacao .cursos-1 .p1,
+  #formacao .cursos-2 .p1,
+  #formacao .cursos-1 .p2,
+  #formacao .cursos-2 h3,
+  #formacao .cursos-2 .p2 {
     font-size: 1rem;
+    display: inline-block;
   }
-  .idiomas h3 {
+  #formacao .idiomas h3 {
     font-size: 1rem;
     padding-right: 50px;
   }
-  .idiomas {
+  #formacao .idiomas {
     padding: 10px 20px;
   }
-  .cursos-1 .p2,
-  .cursos-1 .p1,
-  .cursos-2 .p2,
-  .cursos-2 .p1 {
-    display: inline-block;
-  }
-  .cursos-1 .p1 {
+  #formacao .cursos-1 .p1 {
     padding-right: 80px;
   }
-  .cursos-2 .p1 {
+  #formacao .cursos-2 .p1 {
     padding-right: 100px;
   }
-  .cursos-1,
-  .cursos-2 {
+  #formacao .cursos-1,
+  #formacao .cursos-2 {
     padding: 6px 12px;
   }
 }
@@ -410,40 +405,40 @@
     margin: 0px auto 15px auto;
   }
   #formacao p {
-    font-size: 0.5rem;
-    line-height: 0.5rem;
+    font-size: 0.65rem;
+    line-height: 0.65rem;
     max-width: 60ch;
     margin: 0px auto 15px auto;
   }
-  .itens img {
+  #formacao .itens img {
     width: 70px;
     margin: 0px auto;
   }
-  .itens {
+  #formacao .itens {
     width: 240px;
     margin: 0px auto;
   }
-  .ul-itens {
+  #formacao .ul-itens {
     max-width: fit-content;
     gap: 10px;
     margin-bottom: 30px;
   }
-  .cursos {
+  #formacao .cursos {
     gap: 10px;
     width: 240px;
     margin: 0px auto 15px auto;
   }
-  .ul-cursos {
+  #formacao .ul-cursos {
     width: 240px;
     margin: 0px auto;
   }
-  .cursos-1,
-  .cursos-2 {
+  #formacao .cursos-1,
+  #formacao .cursos-2 {
     padding: 5px 10px;
     border-radius: 4px;
   }
-  .t1,
-  .t2 {
+  #formacao .t1,
+  #formacao .t2 {
     font-size: 0.75rem;
     line-height: 0.8rem;
     margin: 0px auto 20px auto;
@@ -452,45 +447,40 @@
   .t2::after {
     display: none;
   }
-  .idiomas {
+  #formacao .idiomas {
     border-radius: 4px;
     width: 80px;
     padding: 5px 10px;
     align-self: center;
     margin: 0px auto 20px auto;
   }
-  .idiomas h3,
-  .idiomas p {
+  #formacao .idiomas h3,
+  #formacao .idiomas p {
     font-size: 0.5rem;
     align-self: center;
     line-height: 0.5rem;
     margin: 0px;
     text-align: center;
   }
-  .idiomas h3 {
+  #formacao .idiomas h3 {
     padding-right: 10px;
   }
-  .cursos-1 .p2,
-  .cursos-1 .p1,
-  .cursos-2 .p2,
-  .cursos-2 .p1,
-  .cursos-2 h3,
-  .cursos-1 h3 {
+  #formacao .cursos-1 .p2,
+  #formacao .cursos-1 .p1,
+  #formacao .cursos-2 .p2,
+  #formacao .cursos-2 .p1,
+  #formacao .cursos-2 h3,
+  #formacao .cursos-1 h3 {
     font-size: 0.5rem;
     line-height: 0.5rem;
-  }
-  .cursos-1 .p2,
-  .cursos-1 .p1,
-  .cursos-2 .p2,
-  .cursos-2 .p1 {
     display: block;
   }
-  .cursos-1 .p1 {
+  #formacao .cursos-1 .p1 {
     padding-right: 30px;
     margin: 0px;
     text-align: left;
   }
-  .cursos-2 .p1 {
+  #formacao .cursos-2 .p1 {
     padding-right: 40px;
     margin: 0px;
     text-align: left;

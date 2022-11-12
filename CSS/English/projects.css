@@ -140,8 +140,9 @@
     width: 100%;
   }
   #projects p {
-    font-size: 0.55rem;
-    line-height: 0.55rem;
+    font-size: 0.65rem;
+    line-height: 0.65rem;
+    margin-bottom: 10px;
   }
   #projects h2 {
     font-size: 0.6rem;
