@@ -1,4 +1,4 @@
-#formacao {
+.formacao {
   display: block;
   text-align: center;
   margin: 140px auto 100px auto;
@@ -6,14 +6,14 @@
   justify-items: center;
 }
 
-#formacao h1 {
+.formacao h1 {
   color: #dfdfdf;
   font-size: 7.75rem;
   line-height: 7rem;
   margin-bottom: 50px;
 }
 
-#formacao p {
+.formacao p {
   color: #ededed;
   font-size: 1.75rem;
   line-height: 1.75rem;
@@ -21,7 +21,7 @@
   margin-bottom: 50px;
 }
 
-#formacao span {
+.formacao span {
   color: #f0966f;
   text-emphasis: bold;
 }
@@ -90,7 +90,7 @@
   top: 58px;
   right: 210px;
   z-index: -1;
-  background-image: url(/SVG/detalhe-formacao-3.svg);
+  background-image: url(../../SVG/detalhe-formacao-3.svg);
 }
 
 .form-3 h3 {
@@ -143,10 +143,10 @@
   display: block;
   width: 50px;
   height: 50px;
-  background-image: url(/SVG/cursos.svg);
+  background-image: url(../../SVG/cursos.svg);
   position: absolute;
   top: -13px;
-  left: -45px;
+  left: -30px;
 }
 
 .t2 {
@@ -164,10 +164,10 @@
   display: block;
   width: 50px;
   height: 50px;
-  background-image: url(/SVG/idiomas.svg);
+  background-image: url(../../SVG/idiomas.svg);
   position: absolute;
   top: -13px;
-  left: 0px;
+  left: -30px;
 }
 
 .cursos {
@@ -185,15 +185,15 @@
   border-radius: 10px;
 }
 
-#formacao .cursos-1 .p1 {
+.cursos-1 .p1 {
   color: #fff;
   font-size: 1.5rem;
   line-height: 1.5rem;
   text-align: left;
-  margin: 0px;
+  margin-bottom: 20px;
 }
 
-#formacao .cursos-1 .p2 {
+.cursos-1 .p2 {
   color: #fff;
   font-size: 1.5rem;
   line-height: 1.5rem;
@@ -214,15 +214,15 @@
   border-radius: 10px;
 }
 
-#formacao .cursos-2 .p1 {
+.cursos-2 .p1 {
   color: #fff;
   font-size: 1.5rem;
   line-height: 1.5rem;
   text-align: left;
-  margin: 0px;
+  margin-bottom: 20px;
 }
 
-#formacao .cursos-2 .p2 {
+.cursos-2 .p2 {
   color: #fff;
   font-size: 1.5rem;
   line-height: 1.5rem;
@@ -253,7 +253,7 @@
   display: inline-block;
 }
 
-#formacao .idiomas p {
+.idiomas p {
   display: inline-block;
   text-align: right;
   margin: 0px;
@@ -262,15 +262,15 @@
 /* RESPONSIVIDADE */
 
 @media (max-width: 1280px) {
-  #formacao {
+  .formacao {
     margin: 100px auto;
   }
-  #formacao h1 {
+  .formacao h1 {
     font-size: 4.5rem;
     line-height: 4.5rem;
     margin: 0px auto 30px auto;
   }
-  #formacao p {
+  .formacao p {
     font-size: 1.25rem;
     margin: 0px auto 30px auto;
   }
@@ -284,6 +284,7 @@
   }
   .cursos {
     gap: 20px;
+    max-width: 558px;
   }
   .t1 {
     max-width: 220px;
@@ -298,9 +299,6 @@
   .t2 h3,
   p {
     font-size: 1.25rem;
-  }
-  .cursos {
-    max-width: 552px;
   }
   .cursos-1 h3 {
     font-size: 1.2rem;
@@ -331,16 +329,16 @@
   }
 }
 
-@media (max-width: 800px) {
-  #formacao {
+@media (max-width: 900px) {
+  .formacao {
     margin: 0px auto 50px auto;
   }
-  #formacao h1 {
+  .formacao h1 {
     font-size: 3rem;
     line-height: 3rem;
     margin: 30px auto 20px auto;
   }
-  #formacao p {
+  .formacao p {
     font-size: 1rem;
     line-height: 1rem;
   }
@@ -353,7 +351,7 @@
     gap: 20px;
   }
   .cursos {
-    width: 448px;
+    width: 460px;
     gap: 20px;
   }
   .t1,
@@ -363,6 +361,18 @@
   .t2 h3,
   p {
     font-size: 1rem;
+  }
+  .t1 {
+    width: 160px;
+  }
+  .t1::after {
+    left: -55px;
+  }
+  .t2 {
+    width: 120px;
+  }
+  .t2::after {
+    left: -50px;
   }
   .cursos-1 h3,
   .cursos-1 .p1,
@@ -398,18 +408,18 @@
 }
 
 @media (max-width: 480px) {
-  #formacao {
+  .formacao {
     margin: 0px auto;
     gap: 15px;
     padding: 10px;
     justify-content: center;
   }
-  #formacao h1 {
+  .formacao h1 {
     font-size: 1.75rem;
     line-height: 2rem;
     margin: 0px auto 15px auto;
   }
-  #formacao p {
+  .formacao p {
     font-size: 0.5rem;
     line-height: 0.5rem;
     max-width: 60ch;
@@ -430,8 +440,8 @@
   }
   .cursos {
     gap: 10px;
-    width: 240px;
-    margin: 0px auto 15px auto;
+    width: 241px;
+    margin: 0px auto 20px auto;
   }
   .ul-cursos {
     width: 240px;
@@ -447,6 +457,9 @@
     font-size: 0.75rem;
     line-height: 0.8rem;
     margin: 0px auto 20px auto;
+  }
+  .t2 {
+    width: 70px;
   }
   .t1::after,
   .t2::after {
